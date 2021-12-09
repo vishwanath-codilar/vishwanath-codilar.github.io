@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style/style1.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  
+
+</head>
+
+<body>
+  <div class="main_class">
+    <div class="logo"> <img src="/home/vishwanath/Desktop/tip-calculator-app-main/images/logo.svg" alt="logo"></div>
+    <div class="card">
+      <div class="card_input">
+        <div class="input_bill">
+          <div class="bill_label"><label for="inp_bill">Bill</label></div>
+          <input type="text" placeholder="0.0" name="in_bill" id="in_bill">
+        </div>
+        <div class="Tip_label"><label>Select Tips %</label></div>
+        <div class="input_Tips">
+
+          <div class="btn tip" >5%</div>
+          <div class="btn tip">10%</div>
+          <div class="btn tip">15%</div>
+          <div class="btn tip">20%</div>
+          <div class="btn tip">25%</div>
+          <div class="costume_tip"><input type="text" placeholder="Costume" id="custome-tip"></div>
+        </div>
+        <div class="Select_people">
+          <div class="people_lables"><label class="people_label1">Number of Pepoles</label>
+            <label class="error_mssg">Can't be zero</label>
+          </div>
+          <input type="text" placeholder="0" id="in_people" name="in_people">
+        </div>
+      </div>
+     
+      <div class="output">
+        <div class="line-wrapper">
+            <div class="line-output">
+                <div class="title-wrapper">
+                    <div class="title">Tip Amount</div>
+                    <div class="desc">/ person</div>
+                </div>
+                <div class="value">$4.27</div>
+            </div>
+
+            <div class="line-output">
+                <div class="title-wrapper">
+                    <div class="title">Total</div>
+                    <div class="desc">/ person</div>
+                </div>
+                <div class="value">$32.79</div>
+            </div>
+        </div>
+        <div class="reset">Reset</div>
+    </div>
+    </div>
+
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
